@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className='w-[330px] bg-gray-50 rounded'>
 			<ul className='flex items-center h-full justify-around'>
 				<li className=' rounded-3xl px-3 py-1'>
-					About
+					About Us
 				</li>
 				<li className=' rounded-3xl px-3 py-1'>
 					Services
