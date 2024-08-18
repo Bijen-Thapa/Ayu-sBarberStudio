@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.negative-rotate{
+    transform: rotate(-25deg);
+}

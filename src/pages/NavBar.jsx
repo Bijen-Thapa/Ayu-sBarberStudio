@@ -6,7 +6,7 @@ const NavBar = () => {
         <div className='w-12 h-12 bg-white flex justify-center items-center rounded-lg font-medium'>
           LOGO
         </div>
-        <div className='w-[330px] bg-gray-50 rounded'>
+        <div className='w-[350px] bg-gray-50 rounded'>
 			<ul className='flex items-center h-full justify-around'>
 				<li className=' rounded-3xl px-3 py-1'>
 					About Us
@@ -16,6 +16,9 @@ const NavBar = () => {
 				</li>
 				<li className=' rounded-3xl px-3 py-1'>
 					Courses
+				</li>
+				<li className=' rounded-3xl px-3 py-1'>
+					Gallery
 				</li>
 			</ul>
         </div>

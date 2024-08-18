@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import NavBar from './pages/NavBar'
 import Footer from './pages/Footer'
 import Main from './pages/Main'
+import Gallery from './pages/Gallery'
 function App() {
 
   return (
     <>
       <NavBar />
-      <Main />
+      <Gallery />
     </>
   )
 }
