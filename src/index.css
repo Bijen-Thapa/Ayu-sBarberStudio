@@ -5,3 +5,17 @@
 .negative-rotate{
     transform: rotate(-25deg);
 }
+
+.hero-section{
+    background:linear-gradient(rgba(0,0,0,0.3),#524e4a), url(img/backGround.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.bg-image{
+    background-image: url(img/backGround.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
