@@ -27,12 +27,12 @@ const NavBar = () => {
             >
               Services
             </NavLink>
-            <NavLink 
+            {/* <NavLink 
               to="/gallery" 
               className={({ isActive }) => `rounded-3xl px-3 py-1 ${isActive ? 'bg-gray-300' : 'text-gray-700'}`}
             >
               Gallery
-            </NavLink>
+            </NavLink> */}
         </ul>
       </nav>
     </header>

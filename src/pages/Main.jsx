@@ -35,32 +35,8 @@ const Main = () => {
 		</div>
 		</section>
 
-        <section className='h-screen'>
-            <div className='h-screen bg-image flex flex-col items-center justify-center'>
-                <h3 className='text-center text-3xl sm:text-4xl md:text-5xl font-semibold mb-6'>
-                    Gallery
-                </h3>
-                <div className='relative flex flex-wrap justify-center gap-4 h-3/4 w-full px-4'>
-                    <div className="bg-white border rounded-lg p-4 w-60 h-60 flex flex-col items-center justify-center transform rotate-12 md:rotate-0">
-                        <div className='bg-white h-48 w-52 flex flex-col items-center justify-center'>
-                            <img src={haircut2} alt="Gallery image 1" className='w-full h-auto object-cover' />
-                            <p className='mt-2'>@instaAccount</p>
-                        </div>
-                    </div>
-                    <div className="bg-white border rounded-lg p-4 w-60 h-60 flex flex-col items-center justify-center transform -rotate-12 md:rotate-0">
-                        <div className='bg-white h-48 w-52 flex flex-col items-center justify-center'>
-                            <img src={haircut1} alt="Gallery image 2" className='w-full h-auto object-cover' />
-                            <p className='mt-2'>@instaAccount</p>
-                        </div>
-                    </div>
-                    <div className="bg-white border rounded-lg p-4 w-60 h-60 flex flex-col items-center justify-center">
-                        <div className='bg-white h-48 w-52 flex flex-col items-center justify-center'>
-                            <img src={haircut1} alt="Gallery image 3" className='w-full h-auto object-cover' />
-                            <p className='mt-2'>@instaAccount</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <section className='min-h-screen bg-image'>
+
         </section>
     </main>
     <Footer />
