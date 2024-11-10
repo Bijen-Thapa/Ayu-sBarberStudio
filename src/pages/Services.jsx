@@ -1,11 +1,8 @@
 import React from 'react';
-import Footer from '../components/Footer';
-import NavBar from '../components/NavBar';
 import Card from '../components/Card';
 const Services = () => {
   return (
     <>
-    <NavBar />
     <section className='min-h-screen hero-section relative flex flex-col justify-center items-center text-center w-full'>
 		<div className='pt-24 sm:pt-36 md:pt-48'>
 			<h1 className='font-serif text-4xl sm:text-6xl md:text-8xl text-white'>
@@ -24,7 +21,6 @@ const Services = () => {
             <Card description="Threading"/>
         </div>
     </section>
-    <Footer />
     </>
     
   )

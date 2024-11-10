@@ -1,22 +1,26 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar';
 import Card from "../components/Card"
 import "../index.css";
-import haircut1 from '../img/haircut1.jpg'
-import haircut2 from '../img/haircut2.jpg'
+import {motion} from 'framer-motion'
+
 const Main = () => {
   return (
     <>
-	<NavBar />
     <main>
 	<section className='min-h-screen hero-section relative flex flex-col justify-center items-center text-center w-full'>
     <div className='pt-32 sm:pt-48 md:pt-64'>
         <h1 className='font-serif text-5xl sm:text-7xl md:text-9xl text-white'>Hair Studio</h1>
         <p className='font-serif text-sm sm:text-lg md:text-xl text-white mt-4'>Style Your Hair Is Style Your Life</p>
         <div className=' mt-8 sm:mt-10'>
-            <button className='w-32 py-2 px-3 border mx-2 sm:mx-3 text-white text-center'>Find Out</button>
-            <button className='w-32 py-2 px-3 border mx-2 sm:mx-3 text-white text-center'>Read More</button>
+            <motion.button 
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 1 }}
+            className='w-32 py-2 px-3 border mx-2 sm:mx-3 text-white text-center'>Find Out</motion.button>
+
+            <motion.button 
+            whileHover={{ scale: 1.2 }}
+            whileTap={{ scale: 1 }}
+            className='w-32 py-2 px-3 border mx-2 sm:mx-3 text-white text-center'>Read More</motion.button>
         </div>
     </div>
 	</section>
@@ -39,7 +43,6 @@ const Main = () => {
 
         </section>
     </main>
-    <Footer />
     </>
   )
 }

@@ -1,6 +1,4 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
-import Footer from "../components/Footer";
 import haircut1 from '../img/haircut1.jpg';
 import haircut2 from "../img/haircut2.jpg";
 import haircut3 from "../img/haircut3.jpg";
@@ -35,7 +33,6 @@ const AboutUs = () => {
 	  };
   return (
     <>
-    <NavBar />
 	<section className='min-h-screen hero-section relative flex flex-col justify-center items-center text-center w-full'>
 		<div className='pt-24 sm:pt-36 md:pt-48'>
 			<h1 className='font-serif text-4xl sm:text-6xl md:text-8xl text-white'>
@@ -55,7 +52,7 @@ const AboutUs = () => {
 			</div>
 		</section>
 
-		<section className='min-h-screen flex flex-col items-center gap-4 sm:grid sm:grid-cols-2 sm:justify-items-center lg:flex lg:flex-row lg:flex-wrap lg:justify-center text-center'>
+		<section className='min-h-screen my-5 flex justify-center gap-2 flex-wrap'>
 		<div>
 			<div className='border text-center w-72 h-60'>
 				<img src={haircut1} className='w-full h-full object-cover' alt="haircut image" />
@@ -65,12 +62,6 @@ const AboutUs = () => {
 		<div>
 			<div className='border text-center w-72 h-60'>
 				<img src={haircut2} className='w-full h-full object-cover' alt="haircut image" />
-			</div>
-			<p>Done by: Amrit Gurung</p>
-		</div>
-		<div>
-			<div className='border text-center w-72 h-60'>
-				<img src={haircut3} className='w-full h-full object-cover' alt="haircut image" />
 			</div>
 			<p>Done by: Amrit Gurung</p>
 		</div>
@@ -140,7 +131,6 @@ const AboutUs = () => {
 				<button className='w-full bg-emerald-400 h-14 rounded-md shadow text-white' type='submit'>Submit</button>
 			</form>
 		</section>
-		<Footer />
     </>
   )
 }

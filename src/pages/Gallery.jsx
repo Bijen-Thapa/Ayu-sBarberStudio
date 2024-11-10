@@ -1,13 +1,10 @@
 import React from 'react';
-import Footer from "../components/Footer";
-import NavBar from '../components/NavBar';
 import "../index.css";
 import haircut1 from '../img/haircut1.jpg'
 import haircut2 from '../img/haircut2.jpg'
 const Gallery = () => {
   return (
     <>
-    <NavBar />
     <section className='h-screen'>
         <div className='h-screen bg-image'>
             <h3 className='text-center text-5xl font-semibold'>Gallery</h3>
@@ -33,7 +30,6 @@ const Gallery = () => {
             </div>
         </div>
     </section>
-    <Footer />
     </>
   )
 }
